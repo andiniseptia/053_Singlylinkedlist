@@ -6,6 +6,6 @@ class Node
 {
 public:
 	int noMhs;
-	chas nama[20];
+	char nama[20];
 	Node* next;
 };
