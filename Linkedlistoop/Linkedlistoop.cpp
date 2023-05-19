@@ -56,5 +56,19 @@ void List::addNode()  /*Menambah sebuah kode dalam list*/
 	previous = START;
 
 
-	
+	while ((current != NULL) && (nim >= current->noMhs))
+	{
+		if (nim = current->noMhs)
+		{
+			cout << "\nDuplikasi noMhs tidak diizinkan\n";
+			return;
+		}
+		previous = current;
+		current = current->next;
+
+	}
+	/*Jika loop diatas dieksekusi, previous dan current akan menempati posisi dimana */
+	nodeBaru->next = current;
+	previous->next = nodeBaru;
 }
+
