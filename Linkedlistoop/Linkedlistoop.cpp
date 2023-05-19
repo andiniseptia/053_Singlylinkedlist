@@ -50,5 +50,11 @@ void List::addNode()  /*Menambah sebuah kode dalam list*/
 		START = nodeBaru;
 		return;
 	}
+	Node* previous, * current;
+
+	current = START;
+	previous = START;
+
+
 	
 }
